@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'SuperMagic';
+    src: url(../fonts/SuperMagic-L3XVn.ttf);
+}
+
+@font-face {
+    font-family: 'Punk';
+    src: url(../fonts/Mustasurma.ttf);
+}
+
+@font-face {
+    font-family: 'Alba';
+    src: url(../fonts/ALBAS___.TTF);
+}
+
+@font-face {
+    font-family: Funk;
+    src: url(../fonts/LT\ Funk.otf);
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+
+*::-webkit-scrollbar {
+
+    display: none;
+
+}
+
+.container {
+
+    position: relative;
+    width: 100%;
+
+}
+
+header {
+
+    height: 65px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+
+}
+
+header a {
+
+    text-decoration: none;
+    color: #fbeacc;
+    font-family: Funk;
+    font-size: large;
+
+}
+
+header a:hover {
+
+    transform: scale(1.1);
+
+}
+
+.sticky {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5%;
+
+}
+
+.section {
+
+    background-color: #fbeacc;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-blend-mode: multiply;
+    align-items: center;
+    background-attachment: fixed;
+    display: flex;
+
+}
+
+#logo {
+
+    width: 60%;
+
+}
+
+.scrollButton {
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 6%;
+    position: absolute;
+    margin-top: 35%;
+    transition: 0.2s;
+
+}
+
+.scrollButton:hover {
+    transform: scale(1.1);
+}
+
+.arrow {
+
+    width: 100%;
+
+}
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    padding: 1.4%;
+    height: 20vh;
+
+}
+
+footer p {
+
+    text-align: center;
+    color: #fbeacc;
+    font-size: 1.3em;
+    font-family: Funk;
+
+}
+
+.links {
+
+    width: 6%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.email,
+.instagram {
+
+    margin: 7%;
+
+}
+
+.email-img,
+.insta-img {
+
+    width: 100%;
+
+}
+
+.email-img:hover {
+
+    transform: scale(1.1);
+
+}
+
+.insta-img:hover {
+
+    transform: scale(1.1);
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .scrollButton {
+
+        width: 10%;
+        margin-top: 50%;
+
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .scrollButton {
+
+        margin-top: 25%;
+
+    }
+
+    footer p {
+
+        font-size: 1.1em;
+
+    }
+
+    .links {
+
+        width: 8%;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+
+        height: 90px;
+
+    }
+
+    #logo {
+
+        width: 80%;
+
+    }
+
+    .scrollButton {
+
+        width: 12%;
+        margin-top: 35%;
+
+    }
+
+    .links {
+
+        width: 10%;
+
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+
+    header a {
+
+        font-size: 0.95em;
+
+    }
+
+    #logo {
+
+        width: 100%;
+
+    }
+
+    .scrollButton {
+
+        width: 18%;
+        margin-top: 65%;
+
+    }
+
+    footer p {
+
+        font-size: 0.9em;
+
+    }
+
+    .links {
+
+        width: 15%;
+
+    }
+
+}

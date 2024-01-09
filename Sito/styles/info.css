@@ -1,0 +1,141 @@
+.info{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(../images/sfondo_home.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#about{
+
+    width: 35%;
+    margin-top: 4%;
+
+}
+
+.info-par {
+
+    width: 100vw;
+    margin-top: 1%;
+    background-color: rgba(0, 0, 0, 0.601);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#fbeacc;
+
+}
+
+.info-par p {
+ 
+    max-width: 80%;
+    font-size: 1.7em;
+    text-align: justify;
+    font-family: Funk;
+    max-height: 100%;
+    word-wrap: break-word;
+    padding: 1.5%;
+
+}
+
+.info-par a{
+
+    max-width: 80%;
+    text-align: justify;
+    font-family: Funk;
+    max-height: 100%;
+    word-wrap: break-word;
+    color: #fbeacc;
+    font-style: italic;
+
+}
+
+.validation{
+
+    margin-bottom: 1%;
+
+}
+
+@media screen and (max-width: 1600px){
+
+    .info-par{
+
+        font-size: 0.9em;
+
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    #about{
+
+        width: 40%;
+        margin-top: 8%;
+
+    }
+
+    .info-par{
+
+        font-size: 0.8em;
+
+    }
+
+    .info-par p{
+
+        width: 95%;
+
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+
+    #about{
+
+        width: 50%;
+        margin-top: 20%;
+
+    }
+
+    .info-par{
+
+        margin-top: 8%; 
+
+    }
+
+}
+
+@media screen and (max-width: 490px){
+
+    #about{
+
+        width: 85%;
+        margin-top: 25%;
+
+    }
+
+    .info-par{
+
+        font-size: 0.65em;
+
+    }
+
+    .info-par p{
+
+        max-width: 90%;
+
+    }
+
+    .validation{
+
+        width: 17%;
+
+    }
+}
