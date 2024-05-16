@@ -1,0 +1,39 @@
+header a{
+
+    color: rgb(214, 90, 185);
+
+}
+
+.home{
+
+    background-image: url(../images/sfondo_punk.jpeg);
+
+}
+
+.description{
+
+    background-image: url(../images/sfondo_punk.jpeg);
+    
+}
+
+.overlay{
+
+    background-color:  rgba(214, 90, 185, 0.741);
+
+}
+
+footer p{
+
+    color:rgb(214, 90, 185);
+
+}
+
+@media screen and (max-width: 490px){
+
+    .side-img{
+
+        margin-bottom: 7%;
+
+    }
+
+}

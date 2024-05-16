@@ -1,0 +1,29 @@
+header a {
+
+    color: #00bfff;
+
+}
+
+.home {
+
+    background-image: url(../images/sfondo_disco.jpeg);
+
+}
+
+.description {
+
+    background-image: url(../images/sfondo_disco.jpeg);
+
+}
+
+.overlay {
+
+    background-color: #00bfff88;
+
+}
+
+footer p {
+
+    color: #00bfff;
+
+}
